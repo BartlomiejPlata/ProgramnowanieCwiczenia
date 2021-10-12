@@ -1,2 +1,2 @@
-# ProgramnowanieCwiczenia
+# ProgramowanieCwiczenia
 Repozytorium cwiczen z zawansowanego programowania
