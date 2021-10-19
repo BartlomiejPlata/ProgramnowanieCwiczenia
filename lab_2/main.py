@@ -1,5 +1,4 @@
-
-#zad 2
+print('zadanie  2a')
 def list_printer(namelist):
     for name in namelist:
         print(name)
@@ -8,8 +7,8 @@ name_list  = ["Jasiu", "Zosia", "Jacek", "Tomek", "Roman"]
 
 list_printer(name_list)
 
- #zad 2 b
-'''
+print('zadanie  2b')
+
 def number_adder(numberlist):
     new_list = []
     for number in numberlist:
@@ -20,9 +19,9 @@ number_list = [1,2,3,4,5]
 
 number_adder(number_list)
 
-'''
 
-'''
+
+
 def number_adder(numberlist):
     new_list = [number * 2 for number in numberlist]
 
@@ -32,14 +31,15 @@ def number_adder(numberlist):
 number_list = [7,2,3,54,5]
 
 number_adder(number_list)
-'''
-# zad 3 c
-'''
+
+
+print('zadanie  2c')
+
 for number in range(10):
     if number%2 != 1:
         print(number)
-'''
-# zad 3 d
+
+print('zadanie  2d')
 list = list(range(0,10))
 
 i = 1
