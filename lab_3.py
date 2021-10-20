@@ -61,6 +61,6 @@ def zlacz_listy(lista1: list, lista2: list)->list:
 
 
 x = zlacz_listy([1,2,3,4], [3,4,5,6])
-print(x)
+print(f"nowa lista: {x}")
 
-print("\nzadanie 6")
+print("\nzadanie 7")
