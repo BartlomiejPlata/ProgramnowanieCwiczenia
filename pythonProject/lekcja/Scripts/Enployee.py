@@ -8,3 +8,14 @@ class Employee:
         self.street = street
         self.zip_code = zip_code
         self.phone = phone
+
+    def __str__(self):
+        return f"\nImie: {self.first_name}, Nazwisko: {self.last_name}, Data zatrunienia: {self.hire_date}, data urodzenia: {self.birth_date} " \
+               f"miasto {self.city}, ulica: {self.street}, kod pocztowy, {self.zip_code}, telefon: {self.phone}"
+
+
+
+pracownik = Employee("Jacek", "Kowalski", '14-12-2021', '13-02.1999', "Katowice", "ul.Czekoladowa", "34-343", '736453628')
+pracownik2 = Employee("Monika", "Kot", '14-12-2021', '13-02.1999', "Poznań ", "ul.Malinowa", "34-343", '736453628')
+pracownik3 = Employee("Adam", "Wilk", '14-12-2021', '13-02.1999', "Toruń", "ul.Czekoladowa", "34-343", '736453628')
+print(pracownik, pracownik2, pracownik3)
