@@ -10,6 +10,3 @@ class Library:
         return f'Miasto: {self.city} \nulica:  {self.street} \nkod pocztowy: {self.zip_code} \ngodziny otwarcia: {self.open_hours} \ntelefon: {self.phone}'
 
 
-lib1 = Library("Warszawa", "ul. Sezamkowa", "12-345", "8:00 - 19:00", "12345677422")
-lib2 = Library("Katowice", "ul. Sokolska", "12-345", "8:00 - 19:00", "33333333333")
-print(lib1, lib2)
