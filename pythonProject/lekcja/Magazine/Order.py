@@ -1,0 +1,1 @@
+from Magazine import utils
