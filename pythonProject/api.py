@@ -17,7 +17,7 @@ def read_file(filename) ->str:
 
 class moviePage(Resource):
     def get(self):
-        data = read_file('/lab_7/movies.csv')
+        data = read_file('pythonProject/lab_7/movies.csv')
         movies = list()
         for x in data:
             movies.append(Movie(x.split(',')[0],x.split(',')[1],x.split(',')[2]).__dict__)
@@ -25,7 +25,7 @@ class moviePage(Resource):
 
 class LinksPage(Resource):
     def get(self):
-        data = read_file('lab_7/links.csv')
+        data = read_file('pythonProject/lab_7/links.csv')
         links = list()
         for x in data:
             links.append(Link(x.split(',')[0],x.split(',')[1],x.split(',')[2]).__dict__)
@@ -34,7 +34,7 @@ class LinksPage(Resource):
 
 class RatingsPage(Resource):
     def get(self):
-        data = read_file('/lab_7/ratings.csv')
+        data = read_file('pythonProject/lab_7/ratings.csv')
         ratings = list()
         for x in data:
             ratings.append(Rating(x.split(',')[0],x.split(',')[1],x.split(',')[2],x.split(',')[3]).__dict__)
@@ -43,7 +43,7 @@ class RatingsPage(Resource):
 
 class TagsPage(Resource):
     def get(self):
-        data = read_file('/lab_7/tags.csv')
+        data = read_file('pythonProject/lab_7/tags.csv')
         tags = list()
         for x in data:
             tags.append(Tag(x.split(',')[0],x.split(',')[1],x.split(',')[2],x.split(',')[3]).__dict__)
