@@ -4,7 +4,7 @@ from osoba import Osoba
 class Pacjent(Osoba):
     def __init__(self, name: str, last_name: str, address: str, contact: str, pesel: str):
         super().__init__(name, last_name, address, contact)
-        self.pesel = pesel
+        self._pesel = pesel
 
     @property
     def name(self):
