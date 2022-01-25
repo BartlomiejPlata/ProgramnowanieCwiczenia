@@ -26,4 +26,5 @@ def detect(img_path):
     cv2.imshow('Wynik', image)
     cv2.waitKey(0)
     cv2.destroyAllWindows()
-    return f"Na obrazie wykryto {person - 1} osob"
+
+    return  image
